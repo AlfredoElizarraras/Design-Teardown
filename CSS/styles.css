@@ -1,3 +1,5 @@
+/* #region General */
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,8 @@
 .no-underline {
     text-decoration: none;
 }
+
+/* #endregion General */
 
 /* #region nav-bar */
 
@@ -31,3 +35,33 @@
 }
 
 /* #endregion nav-bar  */
+
+/* #region dont forget latest articles */
+
+.dont-forget-latest-articles {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.dont-forget-latest-articles__title {
+    position: absolute;
+    top: 2%;
+    width: 20em;
+    height: 3em;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.dont-forget-latest-articles__article {
+    flex: 1 1 50%;
+    display: flex;
+    padding: 10%;
+    flex-direction: column;
+    background-color: red;
+    border: 1px solid black;
+    align-content: space-around;
+}
+
+/* #endregion dont forget latest articles */
