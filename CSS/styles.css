@@ -16,7 +16,7 @@
 
 .nav-bar {
     display: flex;
-    background: gray;
+    background: rgb(56, 55, 55);
     height: 20vh;
 }
 
@@ -47,21 +47,34 @@
 .dont-forget-latest-articles__title {
     position: absolute;
     top: 2%;
-    width: 20em;
-    height: 3em;
-    text-align: center;
     margin-left: 50%;
     transform: translateX(-50%);
+    text-align: center;
+    width: 455px;
+    height: 90px;
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+.dont-forget-latest-articles__title span {
+    background: white;
 }
 
 .dont-forget-latest-articles__article {
     flex: 1 1 50%;
     display: flex;
+    height: 500px;
     padding: 10%;
     flex-direction: column;
-    background-color: red;
+    background-color: gray;
     border: 1px solid black;
-    align-content: space-around;
+    justify-content: space-around;
+    color: white;
+}
+
+.dont-forget-latest-articles__article p {
+    font-size: 2rem;
+    margin: 1% auto;
 }
 
 /* #endregion dont forget latest articles */
