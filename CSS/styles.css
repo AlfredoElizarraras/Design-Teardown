@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* #region nav-bar */
+
+.nav-bar {
+    display: flex;
+    background: gray;
+    height: 20vh;
+}
+
+.nav-bar__item {
+    flex: 1;
+    border: 0.5px solid black;
+    display: flex;
+}
+
+.nav-bar__item__link {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* #endregion nav-bar  */
