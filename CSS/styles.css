@@ -332,3 +332,39 @@ main {
   background-color: rgb(77, 77, 77);
 }
 /* #endregion featured-smashing-book */
+
+/* #region curated-posts */
+.curated-posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+
+.curated-posts h1 {
+    position: absolute;
+}
+
+.curated-posts__article {
+    height: 662px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.curated-posts__article h3 {
+    font-size: 1.2rem;
+}
+
+.curated-posts__article h2 {
+    font-size: 2rem;
+}
+/* 
+.curated-posts__article ul {
+    list-style: circle;
+} */
+
+.curated-posts__article li {
+    font-size: 1.3rem;
+    list-style-type: circle;
+}
+/* #endregion curated-posts */
