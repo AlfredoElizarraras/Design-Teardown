@@ -2,7 +2,14 @@
 
 html {
   font-family: "Hammersmith One", sans-serif;
+} 
+
+main {
+    width: 1250px;
+    margin: 0 auto;
 }
+
+main
 
 .no-underline {
   text-decoration: none;
@@ -175,3 +182,38 @@ html {
   color: #fff;
 }
 /* #endregion latest-posts */
+
+/* #region just-released */
+.just-released {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 1100px;
+    background-color: rgb(66, 66, 66);
+    padding: 10% 20%;
+    text-align: center;
+}
+
+.just-released h1 {
+    font-size: 1.5rem;
+}
+
+.just-released h2 {
+    font-size: 3rem;
+}
+
+.just-released p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.just-released button {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.just-released__img {
+    height: 50%;
+    background-color:gray;
+}
+/* #endregion just-released */
