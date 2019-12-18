@@ -1,13 +1,7 @@
 /* #region General */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .no-underline {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* #endregion General */
@@ -15,23 +9,23 @@
 /* #region nav-bar */
 
 .nav-bar {
-    display: flex;
-    background: rgb(56, 55, 55);
-    height: 20vh;
+  display: flex;
+  background: rgb(56, 55, 55);
+  height: 10vh;
 }
 
 .nav-bar__item {
-    flex: 1;
-    border: 0.5px solid black;
-    display: flex;
+  flex: 1;
+  border: 0.5px solid black;
+  display: flex;
 }
 
 .nav-bar__item__link {
-    flex-basis: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 /* #endregion nav-bar  */
@@ -39,42 +33,42 @@
 /* #region dont forget latest articles */
 
 .dont-forget-latest-articles {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .dont-forget-latest-articles__title {
-    position: absolute;
-    top: 2%;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    width: 455px;
-    height: 90px;
-    font-size: 2.5em;
-    line-height: 2em;
+  position: absolute;
+  top: 2%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 455px;
+  height: 90px;
+  font-size: 2.5em;
+  line-height: 2em;
 }
 
 .dont-forget-latest-articles__title span {
-    background: white;
+  background: white;
 }
 
 .dont-forget-latest-articles__article {
-    flex: 1 1 50%;
-    display: flex;
-    height: 500px;
-    padding: 10%;
-    flex-direction: column;
-    background-color: gray;
-    border: 1px solid black;
-    justify-content: space-around;
-    color: white;
+  flex: 1 1 50%;
+  display: flex;
+  /* height: 500px; */
+  padding: 10%;
+  flex-direction: column;
+  background-color: gray;
+  border: 1px solid black;
+  justify-content: space-around;
+  color: white;
 }
 
 .dont-forget-latest-articles__article p {
-    font-size: 2rem;
-    margin: 1% auto;
+  font-size: 2rem;
+  margin: 1% auto;
 }
 
 /* #endregion dont forget latest articles */
