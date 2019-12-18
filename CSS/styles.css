@@ -11,7 +11,8 @@
 .nav-bar {
   display: flex;
   background: rgb(56, 55, 55);
-  height: 10vh;
+  height: 8rem;
+  font-size: 1.2rem;
 }
 
 .nav-bar__item {
