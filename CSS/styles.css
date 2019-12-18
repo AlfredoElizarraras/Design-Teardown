@@ -9,7 +9,13 @@ main {
     margin: 0 auto;
 }
 
-main
+.action-button {
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: black;
+  }
 
 .no-underline {
   text-decoration: none;
@@ -170,14 +176,6 @@ main
   line-height: 1.8rem;
 }
 
-.latest-posts__poster button {
-  width: 250px;
-  height: 50px;
-  border-radius: 10px;
-  font-size: 1.3rem;
-  color: black;
-}
-
 .latest-posts__poster button:hover {
   color: #fff;
 }
@@ -217,3 +215,84 @@ main
     background-color:gray;
 }
 /* #endregion just-released */
+
+/* #region community-links */
+.community-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.community-links__person-of-the-week {
+    flex: 1 1 100%;
+    height: 335px;
+    background: rgb(56, 56, 56);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 15px;
+}
+
+.community-links__person-of-the-week div {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background: gray;
+}
+
+.community-links__person-of-the-week__content {
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.community-links__person-of-the-week__content h1 {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.community-links__person-of-the-week__content p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.community-links__article {
+    flex: 1 1 50%;
+    height: 430px;
+    padding: 15px;
+    background:gray;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.community-links__article div {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: rgb(87, 85, 85);
+}
+
+.community-links__article__content {
+    display: grid;
+    grid-template-rows: 15% 15% 50%;
+}
+
+.community-links__article__content h2 {
+    font-size: 1.5rem;
+    color: rgb(150, 148, 148);
+}
+
+.community-links__article__content h1 {
+    font-size: 1.8rem;
+}
+
+.community-links__article__content p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: rgb(51, 51, 51);
+}
+
+.community-links__article:nth-of-type(3),
+.community-links__article:nth-of-type(4),
+.community-links__article:nth-of-type(7) {
+    background: rgb(107, 103, 103);
+}
+
+/* #endregion community-links */
