@@ -164,10 +164,6 @@ html {
   height: 30%;
 }
 
-.latest-posts__article header time {
-  color: gray;
-}
-
 .just-released h2 {
   font-size: 3rem;
 }
@@ -199,6 +195,7 @@ html {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 0.8rem;
+  color: gray;
 }
 
 .latest-posts__article p {
