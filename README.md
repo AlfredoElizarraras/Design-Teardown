@@ -12,8 +12,8 @@
 
 ## Live Demo
 
-[Smashing magazine design teardown.](https://alfredoelizarraras.github.io/Design-Teardown/)
-[Here are the original one.](https://www.smashingmagazine.com/)
+- [Smashing magazine design teardown.](https://alfredoelizarraras.github.io/Design-Teardown/)
+- [Here are the original one.](https://www.smashingmagazine.com/)
 
 ---
 
