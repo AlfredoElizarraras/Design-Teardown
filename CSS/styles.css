@@ -347,24 +347,30 @@ main {
 .curated-posts__article {
     height: 662px;
     background: gray;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
 }
 
 .curated-posts__article h3 {
     font-size: 1.2rem;
+    color: rgb(83, 82, 82);
 }
 
 .curated-posts__article h2 {
     font-size: 2rem;
 }
-/* 
+
 .curated-posts__article ul {
-    list-style: circle;
-} */
+    margin: 0 auto;
+}
 
 .curated-posts__article li {
     font-size: 1.3rem;
-    list-style-type: circle;
+    margin: 0.5rem 0;
+}
+
+.curated-posts__article a {
+    color:black;
 }
 /* #endregion curated-posts */
