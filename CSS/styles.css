@@ -1,7 +1,7 @@
 /* #region General */
 
 html {
-  font-family: "Hammersmith One", sans-serif;
+  font-family: "Sniglet", cursive;
 }
 
 .not-entire-screen {
@@ -54,7 +54,7 @@ html {
 }
 
 .poster h2 {
- font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .poster p {
@@ -214,6 +214,7 @@ html {
   height: 50%;
   background-color: gray;
 }
+
 /* #endregion just-released */
 
 /* #region community-links */
@@ -331,46 +332,104 @@ html {
 .featured-smashing-book div {
   background-color: rgb(77, 77, 77);
 }
+
 /* #endregion featured-smashing-book */
 
 /* #region curated-posts */
 .curated-posts {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
 }
 
 .curated-posts h1 {
-    position: absolute;
+  position: absolute;
 }
 
 .curated-posts__article {
-    height: 662px;
-    background: gray;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
+  height: 662px;
+  background: gray;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .curated-posts__article h3 {
-    font-size: 1.2rem;
-    color: rgb(83, 82, 82);
+  font-size: 1.2rem;
+  color: rgb(83, 82, 82);
 }
 
 .curated-posts__article h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .curated-posts__article ul {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .curated-posts__article li {
-    font-size: 1.3rem;
-    margin: 0.5rem 0;
+  font-size: 1.3rem;
+  margin: 0.5rem 0;
 }
 
 .curated-posts__article a {
-    color:black;
+  color: black;
 }
+
 /* #endregion curated-posts */
+
+/* #region footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(155, 155, 155);
+  padding: 2.5rem 4rem;
+  height: 700px;
+}
+
+.footer__all-topics-links {
+  height: 60%;
+  padding: 1rem 2rem;
+}
+
+.footer__all-topics-links h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.footer__last-links {
+  height: 40%;
+  padding: 0 15rem;
+}
+
+.footer__last-links p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.footer__links--display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__links--display li {
+  margin-right: 2rem;
+  margin-top: 1rem;
+  font-size: 1.7rem;
+}
+
+.footer__links--display li a {
+  color: #000;
+}
+
+.all-topics li a {
+  text-decoration: none;
+}
+
+.last-links {
+  list-style-type: none;
+}
+
+/* #endregion footer */
