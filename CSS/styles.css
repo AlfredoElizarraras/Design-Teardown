@@ -4,7 +4,7 @@ html {
   font-family: "Hammersmith One", sans-serif;
 }
 
-main {
+.not-entire-screen {
   width: 1250px;
   margin: 0 auto;
 }
@@ -188,7 +188,7 @@ main {
   justify-content: space-around;
   height: 1100px;
   background-color: rgb(66, 66, 66);
-  padding: 10% 20%;
+  padding: 4rem 7rem;
   text-align: center;
 }
 
@@ -302,7 +302,7 @@ main {
 .featured-smashing-book {
   display: grid;
   grid-template-columns: 60% 40%;
-  padding: 5%;
+  padding: 4rem;
   height: 420px;
   background-color: rgb(105, 105, 105);
   margin: 20px 0;
