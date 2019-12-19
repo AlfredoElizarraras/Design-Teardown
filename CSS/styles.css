@@ -21,6 +21,53 @@ html {
   text-decoration: none;
 }
 
+.poster {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(116, 113, 113);
+  grid-column: 2 / span 2;
+  height: 630px;
+  padding: 10%;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: #fff;
+}
+
+.poster__cartoon {
+  border-radius: 50%;
+}
+
+.poster__cartoon--outside {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  background-color: rgba(165, 165, 165, 0.8);
+}
+
+.poster__cartoon--inside {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  background-color: rgb(134, 132, 132);
+}
+
+.poster h2 {
+ font-size: 2.5rem;
+}
+
+.poster p {
+  padding: 0 10%;
+  margin-top: 20px;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.poster button:hover {
+  color: #fff;
+}
+
 /* #endregion General */
 
 /* #region nav-bar */
@@ -133,52 +180,6 @@ html {
   line-height: 2rem;
 }
 
-.latest-posts__poster {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(116, 113, 113);
-  grid-column: 2 / span 2;
-  height: 630px;
-  padding: 10%;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  color: #fff;
-}
-
-.latest-posts__poster__cartoon {
-  border-radius: 50%;
-}
-
-.latest-posts__poster__cartoon--outside {
-  display: flex;
-  align-items: center;
-  height: 180px;
-  width: 180px;
-  background-color: rgba(165, 165, 165, 0.8);
-}
-
-.latest-posts__poster__cartoon--inside {
-  margin: auto;
-  height: 150px;
-  width: 150px;
-  background-color: rgb(134, 132, 132);
-}
-
-.latest-posts__poster h2 {
-  font-size: 2.5rem;
-}
-
-.latest-posts__poster p {
-  padding: 0 10%;
-  margin-top: 20px;
-  font-size: 1rem;
-  line-height: 1.8rem;
-}
-
-.latest-posts__poster button:hover {
-  color: #fff;
-}
 /* #endregion latest-posts */
 
 /* #region just-released */
