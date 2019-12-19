@@ -147,6 +147,11 @@ html {
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
   row-gap: 20px;
+  position: relative;
+}
+
+.latest-posts > h1 {
+  position: absolute;
 }
 
 .latest-posts__article {
@@ -173,7 +178,7 @@ html {
   font-size: 1.3rem;
 }
 
-.community-links__article__content h2 {
+.community-links__article__content h3 {
   font-size: 1.5rem;
   color: rgb(150, 148, 148);
 }
@@ -184,6 +189,15 @@ html {
 
 .curated-posts__article h2 {
   font-size: 2rem;
+}
+
+.community-links__person-of-the-week__content h2 {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.community-links__article__content h2 {
+  font-size: 1.8rem;
 }
 
 .latest-posts__article header h2 {
@@ -236,6 +250,11 @@ html {
 .community-links {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.community-links > h1 {
+  position: absolute;
 }
 
 .community-links__person-of-the-week {
@@ -257,11 +276,6 @@ html {
 .community-links__person-of-the-week__content {
   display: grid;
   grid-template-rows: 10% 90%;
-}
-
-.community-links__person-of-the-week__content h1 {
-  font-size: 1.3rem;
-  color: gray;
 }
 
 .community-links__person-of-the-week__content p {
@@ -290,10 +304,6 @@ html {
   grid-template-rows: 15% 15% 50%;
 }
 
-.community-links__article__content h1 {
-  font-size: 1.8rem;
-}
-
 .community-links__article__content p {
   font-size: 1.2rem;
   line-height: 2rem;
@@ -318,6 +328,11 @@ html {
   background-color: rgb(105, 105, 105);
   margin: 20px 0;
   color: #fff;
+  position: relative;
+}
+
+.featured-smashing-book > h1 {
+  position: absolute;
 }
 
 .featured-smashing-book__content {
