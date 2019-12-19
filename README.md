@@ -1,22 +1,19 @@
----
-
 # Design Teardown
 
-> This project is completed by Santiago Rueda Ortiz and Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
+> This project is completed by Santiago Rueda Ortiz and Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum.
 
-![Screenshot - 1920 x 1080 ](/public/screenshot.png?raw=true "Screenshot")
-
----## Live Demo
-
-[Smashing magazine design teardown Live demo](https://alfredoelizarraras.github.io/Design-Teardown/)
-
----
+![Screenshot](/public/screenshot.png?raw=true "Screenshot")
 
 ## Built With
 
 - HTML5
 - CSS3
 - Node
+
+## Live Demo
+
+[Smashing magazine design teardown.](https://alfredoelizarraras.github.io/Design-Teardown/)
+[Here are the original one.](https://www.smashingmagazine.com/)
 
 ---
 
