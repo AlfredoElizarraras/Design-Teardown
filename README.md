@@ -47,9 +47,8 @@
 
 👤 **Santiago Rueda Ortiz**
 
-- Github: [@AlfredoElizarraras]()
-- Twitter: [@OscarAlfredoGm4]()
-- Linkedin: [@OscarAlfredoGómezElizarrarás]()
+- Github: [@srueda27](https://github.com/srueda27)
+- Linkedin: [@SantiagoRuedaOrtiz](https://www.linkedin.com/in/santiago-rueda-2a3432194/)
 
 👤 **Oscar Alfredo Gómez Elizarrarás**
 
