@@ -64,6 +64,11 @@ html {
   line-height: 1.8rem;
 }
 
+.just-released button {
+  width: 40%;
+  margin: 0 auto;
+}
+
 .poster button:hover {
   color: #fff;
 }
@@ -163,6 +168,28 @@ html {
   color: gray;
 }
 
+.just-released h2 {
+  font-size: 3rem;
+}
+
+.footer__all-topics-links h2 {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.community-links__article__content h2 {
+  font-size: 1.5rem;
+  color: rgb(150, 148, 148);
+}
+
+.featured-smashing-book__content h2 {
+  font-size: 2.5rem;
+}
+
+.curated-posts__article h2 {
+  font-size: 2rem;
+}
+
 .latest-posts__article header h2 {
   margin-top: 10px;
   font-size: 2rem;
@@ -196,18 +223,9 @@ html {
   font-size: 1.5rem;
 }
 
-.just-released h2 {
-  font-size: 3rem;
-}
-
 .just-released p {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.just-released button {
-  width: 40%;
-  margin: 0 auto;
 }
 
 .just-released__img {
@@ -275,11 +293,6 @@ html {
   grid-template-rows: 15% 15% 50%;
 }
 
-.community-links__article__content h2 {
-  font-size: 1.5rem;
-  color: rgb(150, 148, 148);
-}
-
 .community-links__article__content h1 {
   font-size: 1.8rem;
 }
@@ -320,10 +333,6 @@ html {
   font-size: 1.3rem;
 }
 
-.featured-smashing-book__content h2 {
-  font-size: 2.5rem;
-}
-
 .featured-smashing-book__content p {
   font-size: 1rem;
   line-height: 1.6rem;
@@ -359,10 +368,6 @@ html {
   color: rgb(83, 82, 82);
 }
 
-.curated-posts__article h2 {
-  font-size: 2rem;
-}
-
 .curated-posts__article ul {
   margin: 0 auto;
 }
@@ -391,11 +396,6 @@ footer {
 .footer__all-topics-links {
   height: 60%;
   padding: 1rem 2rem;
-}
-
-.footer__all-topics-links h2 {
-  text-align: center;
-  font-size: 1.3rem;
 }
 
 .footer__last-links {
