@@ -75,7 +75,7 @@ html {
 .dont-forget-latest-articles__article {
   flex: 1 1 50%;
   display: flex;
-  padding: 10%;
+  padding: 8rem;
   flex-direction: column;
   background-color: gray;
   border: 1px solid black;
